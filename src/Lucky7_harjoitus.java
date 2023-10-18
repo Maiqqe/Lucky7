@@ -85,10 +85,29 @@ public class Lucky7_harjoitus {
 				 
 				 
 				 
-
+				System.out.println("Sinulla on rahaa " + raha + "€");  //RAHA MÄÄRÄN SEURAUS!!!!
+				
+				
+				
+				if (raha==0) {
+					System.out.println("Rahasi loppui. Peli päättyi!");
+					break;}
+				
+				else {
+				System.out.println("Haluatko pelata uudestaan? Syötä y tai n.");
+					}
+				}
+			
+			
+			else if (peli.equals("n")) {
+				System.out.println("Peli päättyi!");
+				break;}
+			
+			else {
+				System.out.println("Koitappa kirjottaa uudestaan");}
+			}
 		}
 	}
-}
-}
+
 }
 
